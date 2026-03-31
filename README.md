@@ -74,13 +74,7 @@ PortfolioTracker/
 
 ---
 
-### Windows
 
-```cmd
-git clone https://github.com/Prabhatl0dhi/portfolio_tracker.git
-cd PortfolioTracker
-run.bat
-```
 
 > The script will automatically download `sqlite-jdbc.jar`, `slf4j-api.jar`, and `slf4j-simple.jar` into `lib\` if they are missing, then build and launch the app.
 
@@ -88,14 +82,7 @@ If Java is installed but not in PATH, the script will find it automatically in c
 
 ---
 
-### Linux / macOS
 
-```bash
-git clone https://github.com/Prabhatl0dhi/portfolio_tracker.git
-cd PortfolioTracker
-chmod +x run.sh
-./run.sh
-```
 
 > Same as Windows — dependencies are auto-downloaded via `curl` or `wget`.
 
